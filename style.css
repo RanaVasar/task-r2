@@ -878,7 +878,13 @@ body{
         
     }
     .container {
+        
         padding: 0;
+        max-width: 1099px;
+        width: 80%;
+    }
+    .navbar ul {
+        margin-right: 200px;
     }
     
     .mainSection {
@@ -968,12 +974,22 @@ body{
         margin: 0;
         padding: 0;
         
-    }    
+        
+    } 
+    .container {
+        
+        padding: 0;
+        max-width: 750px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 60px;
+    }   
     .container {
         padding: 0;
     }
     .navbar {
-        padding-top: 50px;
+        padding-top: 10px;
     }
     .navbar ul {
         flex-direction: column;
@@ -981,8 +997,15 @@ body{
         align-items: center;
         gap: 30px;
     }
+    .navbar ul li {
+        width: 200px;
+    }
     .main-left h1 {
-        font-size: 60px;
+        font-size: 50px;
+    }
+    .main-left {
+        padding: 0px;
+        padding-left: 30px;
     }
     .main-right {
         justify-content: center;
@@ -1012,6 +1035,14 @@ body{
     .image5 img {
         max-width: 190px;
     }
+    .ourservice-top-left {
+        width: 100%;
+    }
+    .ourservice-top-right {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 30px;
+    }
     .price-right {
         width: 100%;
        justify-content: center;
@@ -1023,6 +1054,9 @@ body{
     .test-image1, .test-image2 {
         display: none;
     }
+    .testimonial-top-center {
+        width: 100%;
+    }
     .testimonial-left {
         margin-left: -50px;
     }
@@ -1030,8 +1064,26 @@ body{
         max-width: 300px;
     }
     .testimonial-right {
-        padding-left: 0px;
+        padding-left: 30px;
+        padding-top: 0px;
         width: 100%;
+    }
+    .testimonial-right-bottom {
+        justify-content: center;
+    }
+    .blog-top p {
+        width: 100%;
+    }
+    .blog {
+        max-width: 300px;
+    }
+    .blog a {
+        width: 20%;
+        padding-left: 30px;
+    }
+    .blog-info p {
+        width: 100%;
+        padding-left: 30px;
     }
     .navbar-items{
         display: none;
@@ -1042,7 +1094,7 @@ body{
     
     .btn-logo{
         display: block;
-        padding: 0px 20px 20px 20px;
+        
         border: none;
         background-color:#FCDAEB;
         
@@ -1052,5 +1104,21 @@ body{
     } 
     .navbar {
         flex-direction: column;
-    }   
+    }  
+    .testimonial-right-bottom img {
+        display: none;
+    } 
+    .about-right-top h1 {
+         font-size: 50px;
+    }
+    .ourservice-top-left h1 {
+        font-size: 50px;
+    }
+    .testimonial-top-center {
+        font-size: 50px;
+    }
+    .working-card h1 {
+        font-size: 50px;
+        padding-left: 30px;
+    }
 }
