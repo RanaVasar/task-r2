@@ -79,7 +79,6 @@ body{
     font-size: 90px;
     font-style: normal;
     font-weight: 400;
-    line-height: 90px; /* 100% */
 }
 .main-left p {
     width: 80%;
@@ -891,15 +890,31 @@ body{
         justify-content: center;
         flex-wrap: wrap;
     }
+    .main-left {
+        padding-top: 0px;
+    }
     .about-section {
         flex-wrap: wrap;
         justify-content: center;
+        padding-top: 50px;
+    }
+    .about-left {
+        width: 100%;
     }
     .about-right {
         padding-top: 100px;
     }
     .ourservice-section {
         justify-content: center;
+        padding-top: 0px;
+    }
+    .ourservice-top-left {
+        width: 100%;
+    }
+    .ourservice-top-right {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 30px;
     }
     .ourservice-top {
         flex-wrap: wrap;
@@ -917,14 +932,28 @@ body{
     .price-section {
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 50px;
+    }
+    .price-left {
+        padding-top: 0px;
+    }
+    .price-right {
+        width: 100%;
+        padding-top: 50px;
+        justify-content: center;
     }
     .testimonial-section {
         justify-content: center;
         flex-wrap: wrap;
+        margin-top: 0px;
     }
     .testimonial-top , .testimonial-bottom {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .testimonial-right {
+        padding-top: 0px;
+        width: 100%;
     }
     .working-hour-section {
         justify-content: center;
@@ -1022,6 +1051,9 @@ body{
     .about-left-top {
         justify-content: center;
     }
+    .about-right {
+        padding-left: 30px;
+    }
     .image5 {
         padding-left: 50px;
         padding-top: 300px;
@@ -1057,9 +1089,10 @@ body{
     .testimonial-top-center {
         width: 100%;
     }
-    .testimonial-left {
-        margin-left: -50px;
+    .testimonial-top {
+        padding: 0px;
     }
+    
     .testimonial-left img {
         max-width: 300px;
     }
@@ -1074,12 +1107,21 @@ body{
     .blog-top p {
         width: 100%;
     }
+    .blog-top {
+        padding-top: 50px;
+    }
+    .blog-bottom {
+        padding: 0px;
+    }
     .blog {
+        max-width: 300px;
+    }
+    .blog img {
         max-width: 300px;
     }
     .blog a {
         width: 20%;
-        padding-left: 30px;
+        padding-left: 50px;
     }
     .blog-info p {
         width: 100%;
